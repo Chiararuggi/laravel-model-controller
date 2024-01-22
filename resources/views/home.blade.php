@@ -5,7 +5,7 @@
 @foreach ($movies as $movie)
         <li>
             <span>{{$movie->title}}</span>
-            <span>{{$movie->originaL_title}}</span>
+            <span>{{$movie->original_title}}</span>
         </li>
     @endforeach
 @endsection
